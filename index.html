@@ -1,257 +1,131 @@
-html{
-    background-image: linear-gradient(to right, #a770ef, #cf8bf3,#FDB99B);
-
-}
-body{
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project_2</title>
    
-background-image: url(img/image-lion-background.png);  
-background-position: top center;  
-background-repeat: no-repeat;
-color: white;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.125rem;
-}
+    <link rel="stylesheet" href="reset.css">
+    <!--This is Eric M css reset -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto:300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+</head>
+<body>
+   
+    <div class="container">
+       
+        <header> 
+            <a href="index.html">
+                <img src="img/logo-roar-bikes.svg" alt="">
+            </a>
+            
+            
 
-.container{
-width:1024px;
-margin-left: auto;
-margin-right: auto;
-min-height:300px ;
+            <nav>
+                <div class="navbutton">
+                    <a href="#" >Book Online</a>
 
-}
-header{
-display: flex;
-justify-content: space-between;
-align-content: center;
-padding-top: 30px;
-padding-bottom: 30px;
-border-bottom: 1px solid lightgray; /* Drwo line*/
-}
 
-main{
-min-height: 200px;
-display: flex;
-align-items: center;
-}
-.main2{
-    min-height: 300px;
-    padding-top: 50px;
-    
-}
-.main3{
-    min-height: 300px;
-    padding-top: 50px;
-}
-.cards{
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    margin-bottom: 20px;
-}
-.c_1{
- background-image: url(img/image-background-card1.jpg);
- background-size: cover;
- background-position: bottom;
- width: 30%;
-    min-height: 250px;
-}
-.c_2{
-    background-image: url(img/image-background-card2.jpg);
-    background-size: cover;
-    min-height: 250px;
-    background-position: bottom;
-    width: 30%;
-}
+                    <div class="dropdown-box">
+                        <div class="navbutton"> <a href="#" >Book Online</a></div>
+                        <div class="navbutton"><a href="#" >Book Online</a></div>
+                        <div class="navbutton"><a href="#" >Book Online</a></div>
+                    </div>
 
-.c_3{
-background-image: url(img/image-background-card3.jpg);
-background-size: cover;
-min-height: 250px;
- background-position: bottom;
- width: 30%;
-}
-.cards p{
-font-size: 0.70rem;
-line-height: 1.2rem;
-margin: 10px 30px 20px 30px;
-}
-.cards i{
-    font-size: 100px;
-    padding-top: 30px;
-}
-.cards a  {
-    color:white;
-    text-decoration: none;/* remove the underline from the link*/
-}
-.c_1, .c_2, .c_3{
-    padding: 30px 30px 20px 30px; 
-    box-sizing: border-box;
-    box-shadow: 5px 5px 5px black;
-    margin-bottom: 20px;
 
-}
+                </div>
+                  
+                <div class="navbutton"> <a href="abou.html" >About</a> </div>
+                <div class="navbutton"> <a href="contact.html" >Contact</a></div>
+                   
+                
 
-.herobox1{
-flex: 2;    
-padding-right: 100px;          
-}
-.herobox2{
-flex: 1;
-}       
-h1{
-font-size: 3.25rem;
-font-family: 'Playfair Display', serif;
-margin-bottom: 1rem;
-color:rgb(45, 8, 53);
-text-shadow: 3px 4px 5px rgb(68, 68, 68);
-}
-h2{
-
- font-size: 2rem;
- font-family: 'Playfair Display', serif;
-margin-top: 20px;
-
-}
- p{
-line-height: 1.5rem;
- margin-bottom: 0.5rem;
- }
+            </nav>
         
-a{
-    text-decoration: none;
+        </header>
+ <!--<hr>Drow linw-->
 
-}
-
-.Mybutton{
-    background-color: white;
-    color: black;
-    font-family: 'Playfair Display', serif;
-    padding: 15px 30px;
-    display: inline-block;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    border-radius: 5px;
-    box-shadow: 2px 2px 2px black;
-    text-decoration: none;
-}
+        <main>
+            <div class="herobox1">
+                <h1>Mobile bike repairs </h1>
+                <p>Many people have difficulty getting their bikes to a bike shop. We call to your office or home anywhere in greater Dublin. Fast, convenient bike servicing with up-front pricing. </p> <p>All without the hassle of taking your bike into a shop.</p>
+           <a href="#" class="Mybutton"> Book Onlin</a>
+            </div>
 
 
-.Mybutton:hover{
-    background-color: rgb(76, 38, 247);
-    transition: 0s;
-}
-
-nav a .Mybutton {
-margin-left: 10%;
-}
+            <div class="herobox2">
+           <img src="img/image-bike-repair-service.jpg" alt="Person">
+            </div>
+        </main>
 
 
-.navbutton{
-background: transparent;
-border: 1px solid white;
-padding: 10px 25px;
-font-family: 'Playfair Display', serif;
-display: inline-block;
-position: relative;
-border-radius: 5px;
-
-}
-
-.navbutton:hover{
-    background-color: #cf8bf3;
-    transition-duration: 0.8s;
-}
-/* this turn the dopdown menu hover  */
-.navbutton:hover .dropdown-box{
-    display: block;
-    
-}
-
-a.navbutton{
-    text-decoration: none;
-    color: white;
-    
-}
-.dropdown-box .navbutton{
-    background-color: #cf8bf3;
-width: 100px;
-
-}
-.dropdown-box .navbutton a{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-}
-.dropdown-box .navbutton:hover{
-    background-color: rgb(245, 221, 84);
-    transition-duration: 1s;
-}
-/* this turn the dopdown menu  */
-.dropdown-box{
-    display: none;
-    position: absolute;
-    z-index: 99; 
-    padding-top: 20px;
-    margin-left: -25px;
-
-}
-
-.testimonials {
-    display: flex; 
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 100px;
-}
-
-.tbox {
-    width: 47%;
-    padding: 50px;
-    border: 1px solid white;
-    box-sizing: border-box;
-    margin-top: 50px;
-}
- /* first child in herobox( h1) or last 
-.herobox1 :first-child{
-
-    color: blue;
-}
-
-third point will be red
- ul :nth-child(3){
-     color:red;
-
-*/
-
-.tbox p:last-of-type{
-
-    font-size: 0.8rem;
-    padding-left: 20px;
-    color:green;
-    
-}
-
-.input{
-margin-bottom: 20px;
-margin-top: 20px;
-
-}
 
 
-/* styling the form */
-input[type=text], input[type=email], textarea{
-    padding: 12px 20px;
-    width: 100%;
-    font-size: 0.9rem;
-    font-family:Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
-}
-.newlable{
-    display: block;
-    margin-bottom: 10px;
-}
-.margin-right-a{
-    margin-right: 20px;
-}
-input[type=radio]{
-    margin-right: 10px;
-}
-form{ margin: 40px 8px}
+
+
+        <div class="cards">
+
+           <div class="c_1">
+               <a href="#">
+            <i class="fas fa-motorcycle"></i>
+            
+            <!-- i tage for icon -->
+            <!-- icon svg -->
+           <h2>Book Online</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga vitae qui accusantium soluta nihil a earum numquam facilis quo?  </p>
+            </a>
+           </div>
+           <div class="c_2">
+            <a href="#">
+            <i class="fas fa-cogs"></i>     
+                   <h2>Service Types</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga vitae qui accusantium soluta nihil a earum numquam facilis quo?  </p>
+           </a>
+        </div>
+           <div class="c_3">
+            <a href="#">
+            <i class="fas fa-phone"></i>
+            <h2>Call for Advice</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga vitae qui accusantium soluta nihil a earum numquam facilis quo?  </p>
+           </a>
+        </div>
+
+        </div>
+
+
+
+
+
+
+
+        <div class="testimonials">
+        
+            <div class="tbox">
+                <p>"I would like to personally thank you for your outstanding product. You guys rock! It's all good. I can't say enough about Roar Cycles."</p>
+                <p>- Tammara I.</p>
+            </div>
+        
+            <div class="tbox">
+                <p>"Roar Cycles is the most valuable business resource we have EVER purchased. I will let my mum know about this, she could really make use of Roar Cycles! Roar Cycles has completely surpassed our expectations."</p>
+                <p>- Floris V.</p>
+            </div>
+        
+        
+            <div class="tbox">
+                <p>"I'm good to go. Roar Cycles is both attractive and highly adaptable. I will refer everyone I know."</p>
+                <p>- Carlin B.</p>
+            </div>
+
+
+            <div class="tbox">
+                <p>"Roar Cycles impressed me on multiple levels. I would gladly pay over 600 dollars for Roar Cycles. We can't understand how we've been living without Roar Cycles."</p>
+                <p>- Eve V.</p>
+            </div>
+
+            
+        </div>
+
+    </div>
+</body>
+</html>
